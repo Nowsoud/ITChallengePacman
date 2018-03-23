@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_restart"
+            android:icon="@android:drawable/stat_notify_sync"
+            android:title="Restart" />
+        <item
+            android:id="@+id/nav_htp"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="How to play" />
+    </group>
+
+    <item android:title="Level">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/lvl_shadow"
+                android:title="Shadow" />
+
+            <item
+                android:checkable="true"
+                android:id="@+id/lvl_gost"
+                android:title="Gost" />
+
+            <item
+                android:checkable="true"
+                android:id="@+id/lvl_poltergaist"
+                android:title="Poltergeist" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

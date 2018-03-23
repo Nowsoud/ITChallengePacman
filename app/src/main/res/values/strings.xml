@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Swippy Pacman</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="description0">
+        Swippy Pacman is a non-canonical PacMan with an infinite number of unduplicated levels.\n\nJust run the game and swipe up and down, left and right to collect all the coins and avoid being eaten by ghosts.
+    </string>
+    <string name="description1">Press the button with a ghost and click \'Start\' to start new game.</string>
+
+    <string name="description2">
+        The game has 3 levels of difficulty: shadow, ghost and poltergeist.\n
+        Change levels using the drop-down menu.\n
+    </string>
+    <string name="description3">Each of the levels of difficulty corresponds to the speed of ghosts.
+        There\'s no cherry. Do not even dream about it.\nJust fly off!</string>
+</resources>
